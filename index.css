@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url("../assets/fondo.jpeg");
+background-size: cover;
+background-position: tenter center;
+height: 100vh;
+}
+
+section header{
+    background-color: rgba(0,0,0,.8);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+section header div{
+max-width: 1100px;
+}
